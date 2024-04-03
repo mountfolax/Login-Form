@@ -1,0 +1,68 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+
+body{
+    background-color: black;
+}
+
+.container{
+    background-color: #656d42;
+    width: 30%;
+    text-align: center;
+    color: white;
+    margin-left: 40%;
+    height: 47rem;
+    margin-top: 10%;
+    padding: 30px;
+    border-radius: 20px;
+}
+
+.container img{
+    border-radius: 1000%;
+    height: 13rem;
+    border: 1px solid black;
+    padding: 1px;
+    background-color: black;
+    width: 40%;
+
+}
+
+h1{
+    color: whitesmoke;
+    font-size: 40px;
+    margin: 20px 0 12px 0;
+
+}
+
+h2{
+    color: black;
+    margin: 10px 0 30px 0;
+}
+
+p{
+    font-size: 20px;
+    margin: 20px 0 22px 0;
+}
+
+.contact button{
+    display: block;
+    width: 80%;
+    padding: 20px;
+    margin-left: 80px;
+    background-color: rgb(17, 16, 16);
+    color: white;
+    margin-bottom: 2%;
+    border: none;
+    outline: none;
+    border-radius: 20px;
+    cursor: pointer;
+    font-size: 20px;
+}
+
+.contact button:hover{
+    color: #656d42;
+    transition: .3s ease-in-out;
+}
